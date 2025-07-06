@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://growthproai-6vu0.onrender.com',
+        target: 'https://growthproai-gkwd.onrender.com',
         changeOrigin: true,
       },
     },
